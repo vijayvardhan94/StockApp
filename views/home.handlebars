@@ -1,0 +1,23 @@
+{{posted_data}}<br />
+
+<div class="jumbotron">
+  <h1 class="display-4">{{stock.companyName}}</h1>
+  <p class="lead"><strong> Latest Price: $</strong> {{stock.latestPrice}} <br />
+<strong> Previous Close Price: $</strong> {{stock.previousClose}} <br />
+<strong> Previous change percent: </strong> {{stock.changePercent}} <br />
+<strong> Market Cap: </strong> {{stock.marketCap}} <br />
+<strong> YTD Change: </strong> {{stock.ytdChange}} <br /></p>
+ 
+</div>
+
+
+
+
+
+<p>
+{{!-- <br /> <br />
+    
+    {{#each stock}}
+        {{@key}} | {{this}}<br />
+    {{/each}}
+</p> --}}
